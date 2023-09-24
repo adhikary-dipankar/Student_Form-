@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+
+</head>
+<body>
+    <h1>Student Form</h1>
+    
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input placeholder="Name" type="text" id="name" required><br>
+        
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" required><br>
+        
+        <label for="address">Address:</label>
+        <input placeholder="Address" type="text" id="address" required><br>
+        
+        <label for="bloodGroup">Blood Group:</label>
+        <input placeholder="Blood Group" type="text" id="bloodGroup" required><br>
+        
+        <label for="mobileNumber">Mobile Number:</label>
+        <input placeholder="Phone Number" type="number" id="mobileNumber" required><br>
+        
+        <button type="button" id="submitBtn" onclick="saveStudent()">Submit</button>
+        <button type="button" id="cancelBtn" onclick="cancelForm()">Cancel</button>
+    </form>
+    
+    <div id="studentList">
+    </div>
+
+    <footer>
+    Powered by Dipankar Adhikary     Made With ♥️  &copy; 2023 
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
 
