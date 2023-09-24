@@ -94,3 +94,13 @@ button#deleteBtn {
     cursor: no-drop;
     
 }
+
+footer {
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: float ;
+            bottom: 0;
+            width: 100%;
+        }
